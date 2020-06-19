@@ -1,12 +1,13 @@
 {
   "name": "appcomments",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "author": "Haniel Barros",
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
@@ -21,7 +22,7 @@
     "bootstrap": "^4.4.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },

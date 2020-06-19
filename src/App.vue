@@ -1,22 +1,28 @@
 <template>
-  <div>
-      <Comments />
+  <div id="app">
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <a href="/" class="navbar-brand">Livraria</a>
+      <div class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a href="/books" class="nav-link">Livros</a>
+        </li>
+        <li class="nav-item">
+          <a href="/bookPublishers" class="nav-link">Editora</a>
+        </li>
+      </div>
+    </nav>
+
+    <div class="container mt-3">
+      <router-view />
+    </div>
   </div>
 </template>
 
-<script>
-
-import Comments from './components/Comments.vue';
-
 export default {
-  name: 'App',
-  components: {
-    Comments
-  }
+  name: 'App'
 }
-</script>
 
 <style lang="scss">
-@import './assets/styles/variables';
-@import './assets/styles/bootstrap';
+@import "./assets/styles/variables";
+@import "./assets/styles/bootstrap";
 </style>
